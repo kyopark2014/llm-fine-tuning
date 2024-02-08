@@ -18,9 +18,18 @@
 
 Continued pre-training / Instruction Tuning / Alignment Tuning (RLHF, DPO 등)
 
-### QLora
+### QLoRA
 
-[QLoRA](https://github.com/daekeun-ml/genai-ko-LLM/tree/main/fine-tuning)는 4비트로 양자화된 사전 훈련된 언어 모델을 통해 그래디언트를 역전파하여 Low Rank Adapters (LoRA)를 파인튜닝합니다. 단일 48GB GPU에서 65B 파라미터 모델을 파인튜닝할 수 있을 만큼 메모리 사용을 크게 줄입니다.
+[QLoRA](https://github.com/daekeun-ml/genai-ko-LLM/tree/main/fine-tuning)는 
+#### Fine-tuning의 어려움
+
+한 예로서 65B 파라미터를 가진 LLaMA 모델을 일반적인 16비트 파인튜닝으로 훈련시키려면 780GB 이상의 GPU 메모리가 필요합니다.
+
+#### 특징
+
+- 4비트로 양자화된 사전 훈련된 언어 모델을 통해 그래디언트를 역전파하여 Low Rank Adapters (LoRA)를 파인튜닝합니다.
+- 성능 저하 없이 메모리 사용량을 크게 줄입니다.
+  - 단일 48GB GPU에서 65B 파라미터 모델을 파인튜닝이 가능하게 함
 
 
 
