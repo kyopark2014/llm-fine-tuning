@@ -15,3 +15,12 @@
 - 다량의 "Unlabeled 데이터"사용
 
 
+
+Continued pre-training / Instruction Tuning / Alignment Tuning (RLHF, DPO 등)
+
+### QLora
+
+[QLoRA](https://github.com/daekeun-ml/genai-ko-LLM/tree/main/fine-tuning)는 4비트로 양자화된 사전 훈련된 언어 모델을 통해 그래디언트를 역전파하여 Low Rank Adapters (LoRA)를 파인튜닝합니다.
+
+
+
