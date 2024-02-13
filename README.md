@@ -8,7 +8,7 @@
 
 ### Alignment Tuning
 - RLHF, DPO가 해당
-- 사람의 피드백을 이용한 튜닝
+- 사람의 피드백 (Reward)을 이용한 튜닝
 
 ### Domain-Adaptation
 - Self Supervised
