@@ -1,6 +1,6 @@
-# Fine Tuning
+# LLM에서 Fine Tuning 하기
 
-## LLM의 Fine tuning 방법
+## Fine tuning 방법
 
 ### Instruction Tuning
 - Supervised
