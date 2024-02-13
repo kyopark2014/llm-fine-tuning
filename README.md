@@ -31,6 +31,10 @@ Continued pre-training / Instruction Tuning / Alignment Tuning (RLHF, DPO 등)
 2) Transfer Learning: 일반적으로 신경망(NN)의 "헤드”(상위 레이어)를 삭제하고 새 것으로 교체하여 업데이트합니다.
 3) PEFT (Parameter Efficient Fine-Tuning): 상대적으로 적은 수의 학습 가능한 매개변수를 사용하여 기본 모델을 보강하는 용도로 사용합니다. 대표적으로 LoRA가 있으며, Instruction tuning에 많이 사용됩니다.
 
+Parameter-efficient Fine-tuning을 비교하면 아래와 같습니다. 
+
+![image](https://github.com/kyopark2014/fine-tuning/assets/52392004/06a950c2-8821-4b76-b224-63d95f69f4ef)
+
 ### Bedrock에서 Fine-Tuning
 
 [AWS Bedrock에서 제공](https://aws.amazon.com/ko/blogs/aws/customize-models-in-amazon-bedrock-with-your-own-data-using-fine-tuning-and-continued-pre-training/)하는 Fine tuning은 방식에는 아래 2가지가 있습니다.
